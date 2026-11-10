@@ -1,0 +1,8 @@
+# 将对应系统的区块添加到 Kimi Code 的配置文件，并替换示例路径。
+[[hooks]]
+event = "Stop"
+command = '"C:/Program Files/Git/bin/bash.exe" "C:/path/to/sisyphus-memory/integrations/kimi/memory-reminder.sh"'
+timeout = 10
+
+# Bash 已在 PATH 中时，command 也可填写如下示例。
+# command = 'bash "/path/to/sisyphus-memory/integrations/kimi/memory-reminder.sh"'

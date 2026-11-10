@@ -1,0 +1,22 @@
+# 本地记忆、数据库、日志和备份
+.omo/
+memory.md
+chroma/
+logs/
+hook_state/
+tmp_honor/
+*.sqlite*
+*.db
+*.db-*
+*.log
+*.bak
+*.backup
+
+# 本地配置与 Python 环境
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
