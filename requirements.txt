@@ -1,2 +1,4 @@
 chromadb==1.5.9
 sentence-transformers==5.6.1
+filelock>=3.16
+mcp==1.26.0
